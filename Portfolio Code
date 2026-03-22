@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        nav {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        header {
+            background-color: lightblue;
+            text-align: center;
+            padding: 30px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .project {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    My Portfolio |
+    <a href="#about" style="color:white;">About</a> |
+    <a href="#projects" style="color:white;">Projects</a> |
+    <a href="#contact" style="color:white;">Contact</a>
+</nav>
+
+<!-- Header -->
+<header>
+    <h1>Hello, I'm TJ</h1>
+    <p>Aspiring Software Developer</p>
+</header>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am learning web development.</p>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>One Page Website</h3>
+        <p>My first HTML project.</p>
+    </div>
+
+    <div class="project">
+        <h3>Bootstrap Website</h3>
+        <p>A website using Bootstrap.</p>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+
+    <form>
+        Name:<br>
+        <input type="text"><br><br>
+
+        Email:<br>
+        <input type="email"><br><br>
+
+        Message:<br>
+        <textarea></textarea><br><br>
+
+        <button>Send</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 My Portfolio</p>
+</footer>
+
+</body>
+</html>
