@@ -17,4 +17,5 @@
 
 ### Portfolio Website
 - https://tj55990.github.io/HTML-CSS-Portfolio/
-- GitHub Repo: 
+- GitHub Repo: https://github.com/TJ55990/HTML-CSS-Portfolio
+- 
